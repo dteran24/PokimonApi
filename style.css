@@ -1,0 +1,52 @@
+header{
+    position: absolute;
+    top: 180px;
+    font-size: 60px;
+}
+header:hover{
+    text-decoration: underline;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+.pokemon{
+    background-color: #e7e79f;
+    border: 10px orange solid;
+    min-width: 180px;
+    text-align: center;
+    padding: 25px;
+    border-radius: 6px;
+}
+.pokemon .name{
+    font-size: 3em;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.pokemon .details{
+display: flex ;
+justify-content:space-between;
+margin: 1em 0 0 ;
+font-weight:bold;
+text-transform: capitalize;
+}
+.details span{
+    padding:0 10px 0 10px;
+}
+.randomize{
+  display: flex;
+  margin-top: 50px;
+  background-color: #e7e79f;
+  border: 5px orange solid;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 4px;
+}
+.randomize:hover{
+    background-color: orange;
+}
